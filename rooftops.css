@@ -167,26 +167,6 @@ html, body {
     }
 }
 
-#image1, #image2 {
-    position:absolute;
-    z-index:10; 
-}
-
-#image1 {
-    top:84%;  
-    left:-4%; 
-    width:190px; 
-    height:auto;
-    transform:rotate(2deg);
-}
-
-#image2 {
-    top:-8%; 
-    left:-4%; 
-    width:135px; 
-    height:auto;
-}
-
 .navigation {
     display:flex;
 }
