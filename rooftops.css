@@ -114,7 +114,29 @@ html, body {
     overflow:hidden;
     border-radius:8px;
     z-index:15; 
+    color:#000;
 }
+
+#image1, #image2 {
+    position:absolute;
+    z-index:10; 
+}
+
+#image1 {
+    top:84%;  
+    left:-4%; 
+    width:190px; 
+    height:auto;
+    transform:rotate(2deg);
+}
+
+#image2 {
+    top:-8%; 
+    left:-4%; 
+    width:135px; 
+    height:auto;
+}
+
 
 .slideshow {
     width:100px; 
@@ -166,26 +188,6 @@ html, body {
     100% {
         transform:translateX(0%);
     }
-}
-
-#image1, #image2 {
-    position:absolute;
-    z-index:10; 
-}
-
-#image1 {
-    top:84%;  
-    left:-4%; 
-    width:190px; 
-    height:auto;
-    transform:rotate(2deg);
-}
-
-#image2 {
-    top:-8%; 
-    left:-4%; 
-    width:135px; 
-    height:auto;
 }
 
 .navigation {
