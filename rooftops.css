@@ -35,18 +35,6 @@ html, body {
     animation:fadeIn 2s ease-in forwards;
 }
 
-.code_text {
-    font-size:14px;
-    animation:fadeInText 3s ease-in forwards;
-    font-family:gontserrat !important;
-    margin-top:20px;
-    text-align:center;
-}
-
-.code_text a {
-    color:#000;
-}
-
 #lace_border {
     border-width:5px; 
     border-style:solid; 
