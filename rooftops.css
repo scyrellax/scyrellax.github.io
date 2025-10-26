@@ -104,13 +104,6 @@ html, body {
     top:0;
     left:0;
 }
-
-.slideshow {
-    width:100px; 
-    display:flex;
-    animation:slide 16s infinite;
-    transform:translate(-50%); 
-}
     
 @keyframes slide {
     0% {
