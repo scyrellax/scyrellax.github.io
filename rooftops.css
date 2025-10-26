@@ -22,7 +22,7 @@ html, body {
     font-size:14px;
 }
 
-#wrapper {
+.wrapper {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -97,6 +97,7 @@ html, body {
     width:100%;
     position:absolute;
     padding:10px;
+    color:#000;
     background-color:#FFFFFF; 
     background:#FFFFFF; 
     top:0;
