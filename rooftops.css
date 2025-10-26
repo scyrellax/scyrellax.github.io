@@ -142,14 +142,6 @@ html, body {
     }
 }
 
-.alt-page:target {
-    display: block !important;
-}
-
-.alt-page:not(:target) {
-    display: none;
-}
-
 .navigation {
     display:flex;
 }
