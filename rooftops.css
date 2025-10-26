@@ -35,12 +35,16 @@ html, body {
     animation:fadeIn 2s ease-in forwards;
 }
 
-#code_text {
-    opacity:0;
+.code_text {
+    font-size:14px;
     animation:fadeInText 3s ease-in forwards;
     font-family:gontserrat !important;
     margin-top:20px;
     text-align:center;
+}
+
+.code_text a {
+    color:#000;
 }
 
 #lace_border {
@@ -148,6 +152,14 @@ html, body {
     100% {
         transform:translateX(0%);
     }
+}
+
+.alt-page:target {
+    display: block !important;
+}
+
+.alt-page:not(:target) {
+    display: none;
 }
 
 .navigation {
