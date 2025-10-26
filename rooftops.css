@@ -105,23 +105,6 @@ html, body {
     left:0;
 }
 
-.container {
-    width:130px; 
-    position:absolute;
-    transform:translate(-50%,-50%);
-    bottom:-26%; 
-    left:92%; 
-    overflow:hidden;
-    border-radius:8px;
-    z-index:15; 
-    color:#000;
-}
-
-#image1, #image2 {
-    position:absolute;
-    z-index:10; 
-}
-
 .slideshow {
     width:100px; 
     display:flex;
