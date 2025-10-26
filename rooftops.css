@@ -17,8 +17,8 @@ html, body {
     justify-content:center;
     align-items:center;
     background:white; 
-    font-family:gontserrat;
-    color:black;
+    font-family:gontserrat; 
+    color:#000;
     font-size:14px;
 }
 
@@ -29,7 +29,8 @@ html, body {
     height:100%;
     width:100%;
     position:relative;
-    opacity:0;
+    opacity:0; 
+    color:#000;
     animation:fadeIn 2s ease-in forwards;
 }
 
@@ -78,6 +79,7 @@ html, body {
     height:250px; 
     width:100%;
     padding:10px; 
+    color:#000;
     background-color:#FFFFFF; 
     box-sizing:border-box;
     overflow-x:hidden;
@@ -218,8 +220,8 @@ html, body {
     background:linear-gradient(#1c1e24 50%, #58476e);
 }
 
-p {
-    color:black;
+p { 
+    color:#000;
     font-family:gontserrat;
 }
 
@@ -254,8 +256,8 @@ a:hover {
 }
 
 
-code {
-    color:black;
+code { 
+    color:#000;
     font-family:gontserrat;
     background:transparent;
 }
