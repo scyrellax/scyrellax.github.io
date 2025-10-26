@@ -122,22 +122,6 @@ html, body {
     z-index:10; 
 }
 
-#image1 {
-    top:84%;  
-    left:-4%; 
-    width:190px; 
-    height:auto;
-    transform:rotate(2deg);
-}
-
-#image2 {
-    top:-8%; 
-    left:-4%; 
-    width:135px; 
-    height:auto;
-}
-
-
 .slideshow {
     width:100px; 
     display:flex;
@@ -302,11 +286,4 @@ hr:not(.tab-container hr){
 
 .button {
     display:none !important;
-}
-
-.floater {
-    position:fixed; 
-    bottom:10px; 
-    right:10px; 
-    max-height:30%
 }
