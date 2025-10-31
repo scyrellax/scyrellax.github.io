@@ -17,7 +17,7 @@
 }
 
 body {
-  height:140%;
+  height:100%;
   margin:0;
   display:flex;
   justify-content:center;
@@ -96,27 +96,33 @@ keyframes marquee {
 }
 
 .marquee {
-  width:auto;
-  margin:0 auto;
-  overflow:hidden;
-  box-sizing:border-box;
+	display:flex;
+	overflow:hidden;
+	white-space:nowrap;
   font-family:minecraftia;
   color:#fff;
   font-size:12px;
-  --outline:#BB5599;
-  filter:drop-shadow(2px 0 0 var(--outline)) drop-shadow(0 2px 0 var(--outline)) drop-shadow(0 -1px 0 var(--outline)) drop-shadow(-1px 0 0 var(--outline));
 }
 
-.marquee span {
-  display:inline-block;
-  width:max-content;
-  padding-left:100%;
-  will-change:transform;
-  animation:marquee 17s linear infinite;
+.marquee__item {
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-name:marquee-content;
+	animation-timing-function:linear;
+	padding:5px 10px 5px 10px;
 }
 
-.marquee span:hover {
-  animation-play-state:paused;
+.marquee:hover .marquee__item {
+	animation-play-state:paused ;
+}
+
+@keyframes marquee-content {
+  from {
+		transform:translateX(0%);
+			}
+	to {
+		transform:translateX(-100%);
+	}
 }
  
 .music-controls { 
