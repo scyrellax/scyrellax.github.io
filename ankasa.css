@@ -96,33 +96,22 @@ keyframes marquee {
 }
 
 .marquee {
-	display:flex;
-	overflow:hidden;
-	white-space:nowrap;
+  display:inline-block;
+  padding-left:100%;
+  animation:marquee 5s linear infinite;
+  width:max-content;
   font-family:minecraftia;
   color:#fff;
   font-size:12px;
 }
-
-.marquee__item {
-	animation-duration:6s;
-	animation-iteration-count:infinite;
-	animation-name:marquee-content;
-	animation-timing-function:linear;
-	padding:5px 10px 5px 10px;
-}
-
-.marquee:hover .marquee__item {
-	animation-play-state:paused ;
-}
-
-@keyframes marquee-content {
-  from {
-		transform:translateX(0%);
-			}
-	to {
-		transform:translateX(-100%);
-	}
+ 
+@keyframes marquee {
+  0% {
+    transform:translate(0, 0);
+  }
+  100% {
+    transform:translate(-100%, 0);
+  }
 }
  
 .music-controls { 
