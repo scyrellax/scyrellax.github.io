@@ -1,0 +1,154 @@
+@font-face {
+  src:url('https://files.catbox.moe/965lv3.ttf');
+  font-family:gontserrat;
+}
+
+@font-face {
+  src:url('https://dl.dropbox.com/scl/fi/kglyfq31nxmzd6q4a8y5n/Minecraftia-Regular.ttf?rlkey=mffiprbo7723cyffw23wtz1yx&st=5ytp779c&dl=0');
+  font-family:minecraftia;
+}
+ 
+.tab-container {
+  width:430px; !important;
+  height:550px; 
+  background-color:transparent !important;
+  margin:0 auto; 
+  color:#000;
+}
+
+body {
+  height:100%;
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-image:linear-gradient(to bottom, rgba(255, 201, 52, 0.6), rgba(253, 121, 39, 0.2)),
+    url("https://images2.alphacoders.com/677/thumb-1920-677024.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  font-family:gontserrat; 
+  color:#000;
+  font-size:15px;
+}
+
+#glenplayer02 {
+  position:relative;
+  top:3px;
+  left:4px;
+  display:flex;
+  z-index:99;
+  text-shadow:-1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+  color:#fff;
+}
+
+#glenplayer02 > div { align-self:center; -webkit-align-self:center; } 
+ 
+marquee {
+  font-family:minecraftia;
+  color:#fff;
+  font-size:12px;
+}
+ 
+.music-controls { 
+  user-select:none; 
+  -webkit-user-select:none; 
+  width:16px; 
+  font-size:16px; 
+  cursor:pointer;
+} 
+ 
+.playy, .pausee {
+  color:#fff; 
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+} 
+ 
+.pausee { display:none; } 
+
+.sonata { 
+  margin-left:10px; 
+  color:#fff;
+} 
+
+.labeltext { 
+  margin-left:0px; 
+  font-family:lovely; 
+  font-size:16px; 
+  font-weight:bold; 
+  color:#fff; 
+  text-shadow:-1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0; 
+}
+
+.pixel {
+  width:15px;
+  height:auto;
+}
+
+p {
+  color:#fbf4f4;
+  font-family:gontserrat;
+}
+
+i {
+  color:#ba4b13;
+}
+
+b {
+  color:#243560;
+}
+
+u, .underline {
+  text-decoration:underline;
+  color:#ba4b13;
+}
+
+a {
+  color:#243560;
+  letter-spacing:normal;
+  transition:0.3s;
+  font-size:13px;
+}
+    
+a:hover {
+  filter:blur(0.5px);
+  transition:0.25s ease-in;
+  letter-spacing:1.5px;
+  font-size:13.5px;
+}
+
+::-webkit-scrollbar {
+  width:0px;
+  height:0px;
+  background:transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background:transparent;
+}
+
+#paste-info-box {
+  display:none !important;
+}
+    
+.footernav {
+  display:none !important;
+}
+
+p:not(.tab-container p)  a  {
+  display:none !important;
+}
+
+p:not(.tab-container p) {
+  display:none !important;
+}
+
+hr:not(.tab-container hr){
+  border:transparent;
+}
+
+#theme_button {
+  display:none !important;
+}
+
+.button {
+  display:none !important;
+}
