@@ -113,6 +113,7 @@ body {
 } 
 
 .labeltext { 
+  width:150px;
   margin-left:0px; 
   font-family:lovely; 
   font-size:16px; 
