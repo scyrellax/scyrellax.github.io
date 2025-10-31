@@ -96,6 +96,7 @@ body {
   width:16px; 
   font-size:16px; 
   cursor:pointer;
+  z-index:10;
 } 
  
 .playy, .pausee {
