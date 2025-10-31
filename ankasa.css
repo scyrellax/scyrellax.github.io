@@ -31,6 +31,53 @@ body {
   font-size:15px;
 }
 
+.image {
+  width:200px;
+  position:relative;
+  top:10%;
+  scale:110%;
+  z-index:10;
+}
+    
+.scrollbox {
+  width:190px;
+  padding:8px;
+  background-color:#f0bf4d;
+  border:4px #e18127 solid;
+  outline:2px #ba4b13 dashed;
+  color:#563121;
+  font-size:13px;
+  overflow-y:scroll;
+  text-align:justify;
+  z-index:20;
+}
+
+.credits {
+  height:15px;
+  width:100%;
+  padding-left:8px;
+  background-color:#f0bf4d;
+  border:4px #e18127 solid;
+  outline:2px #ba4b13 dashed;
+  color:#563121;
+  font-size:11px;
+  z-index:20;
+}
+
+.credits a {
+  color:#243560;
+  letter-spacing:normal;
+  transition:0.3s;
+  font-size:11.5px;
+}
+    
+.credits a:hover {
+  filter:blur(0.5px);
+  transition:0.25s ease-in;
+  letter-spacing:1.5px;
+  font-size:11.5px;
+}
+
 #glenplayer02 {
   position:relative;
   top:3px;
