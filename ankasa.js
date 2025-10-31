@@ -5,11 +5,12 @@ window.addEventListener("load", () => {
 
   // delay for loading
   setTimeout(() => {
-    // force icons
-    playIcon.style.display = "none";
-    pauseIcon.style.display = "block";
-
-    audio.play().catch(() => {
+    audio.muted = true;
+    audio.play().then(() => {
+      // force pause icon
+      playIcon.style.display = "none";
+      pauseIcon.style.display = "block";
+    }).catch(() => {
       playIcon.style.display = "block";
       pauseIcon.style.display = "none";
     });
@@ -21,13 +22,15 @@ function songstart() {
   const playIcon = document.querySelector(".playy");
   const pauseIcon = document.querySelector(".pausee");
 
-  if (audio.paused) {
-    audio.muted = false; // unmute when user interacts
+  if (audio.paused || audio.currentTime === 0 || audio.ended) {
+    // PLAY
+    audio.muted = false;  // unmute on user interaction
     audio.play();
     playIcon.style.display = "none";
     pauseIcon.style.display = "block";
   } 
   else {
+    // PAUSE
     audio.pause();
     playIcon.style.display = "block";
     pauseIcon.style.display = "none";
