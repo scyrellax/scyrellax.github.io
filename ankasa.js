@@ -26,7 +26,8 @@ function songstart() {
     audio.play();
     playIcon.style.display = "none";
     pauseIcon.style.display = "block";
-  } else {
+  } 
+  else {
     audio.pause();
     playIcon.style.display = "block";
     pauseIcon.style.display = "none";
