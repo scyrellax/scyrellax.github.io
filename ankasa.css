@@ -39,7 +39,7 @@ body {
   z-index:10;
 }
 
-#glenplayer02 {
+#musicplayer {
   position:relative;
   top:3px;
   left:4px;
@@ -49,7 +49,7 @@ body {
   color:#fff;
 }
 
-#glenplayer02 > div { align-self:center; -webkit-align-self:center; } 
+#musicplayer > div { align-self:center; -webkit-align-self:center; } 
  
 .music-controls { 
   user-select:none; 
@@ -74,11 +74,11 @@ body {
 } 
 
 .labeltext { 
-  width:180px;
+  width:170px;
   overflow-x:hidden;
   padding-left:15px;
   margin-left:0px; 
-  font-family:lovely; 
+  font-family:minecraftia; 
   font-size:16px; 
   font-weight:bold; 
   color:#fff; 
