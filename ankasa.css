@@ -83,7 +83,7 @@ body {
   top:3px;
   left:4px;
   display:flex;
-  z-index:99;
+  z-index:10;
   text-shadow:-1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
   color:#fff;
 }
@@ -101,6 +101,7 @@ body {
 .playy, .pausee {
   color:#fff; 
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+  z-index:10;
 } 
  
 .pausee { display:none; } 
@@ -117,6 +118,7 @@ body {
   font-weight:bold; 
   color:#fff; 
   text-shadow:-1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0; 
+  z-index:8;
 }
 
 .pixel {
