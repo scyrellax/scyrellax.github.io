@@ -1,0 +1,142 @@
+#paste-info-box.flex {
+  display:none!important;
+}
+footer > .footernav,footer > p {
+  display:none!important
+}
+footer > div > div {
+  position:absolute;
+  bottom:6px!important;
+  right:0;
+  margin:auto;
+  display:flex;
+  width:fit-content;
+}
+#bottom-buttons {
+  position:absolute;
+  bottom:10px;
+  right:3rem;
+  gap:1rem;
+  display:flex;
+  color:var(--text-color-faded) !important;
+}
+#bottom-buttons a {
+  color:var(--text-color-faded) !important;
+}
+footer {
+  position:absolute;
+  bottom:10px;
+  height:fit-content;
+  width:fit-content;
+  padding:0;
+  right:1rem;
+}
+footer.full {
+  width:fit-content!important;
+}
+footer > hr {
+  display:none;
+}
+footer > div {
+  width:unset!important
+}
+body {
+  display:flex;
+  align-items:center;
+}
+
+@font-face {
+  src:url('https://files.catbox.moe/965lv3.ttf');
+  font-family:gontserrat;
+}
+
+@font-face {
+  src:url('https://dl.dropbox.com/scl/fi/kglyfq31nxmzd6q4a8y5n/Minecraftia-Regular.ttf?rlkey=mffiprbo7723cyffw23wtz1yx&st=5ytp779c&dl=0');
+  font-family:minecraftia;
+}
+ 
+.tab-container {
+  width:400px !important;
+  background-color:transparent !important;
+  margin:0 auto; 
+}
+
+body {
+  height:100%;
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-image:linear-gradient(to bottom, rgba(115, 63, 193, 0.452), rgba(29, 101, 218, 0.173)),
+    url("https://i.pinimg.com/736x/39/c8/72/39c87252a7ee741ca361a33d953ac83f.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  font-family:gontserrat; 
+  color:#000;
+  font-size:15px;
+}
+
+p {
+  color:#282449;
+}
+
+i {
+  color:#1ca6f0;
+}
+
+b {
+  color:#f01c82;
+}
+
+a {
+  color:#f01c82;
+  text-decoration:underline;
+  letter-spacing:normal;
+  transition:0.3s;
+  font-size:13px;
+}
+    
+a:hover {
+  filter:blur(0.5px);
+  transition:0.25s ease-in;
+  letter-spacing:1.2px;
+  font-size:13.2px;
+}
+
+::-webkit-scrollbar {
+  width:0px;
+  height:0px;
+  background:transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background:transparent;
+}
+
+#paste-info-box {
+  display:none !important;
+}
+    
+.footernav {
+  display:none !important;
+}
+
+p:not(.tab-container p)  a  {
+  display:none !important;
+}
+
+p:not(.tab-container p) {
+  display:none !important;
+}
+
+hr:not(.tab-container hr){
+  border:transparent;
+}
+
+#theme_button {
+  display:none !important;
+}
+
+.button {
+  display:none !important;
+}
